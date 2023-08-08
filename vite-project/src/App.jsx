@@ -14,7 +14,7 @@ function App() {
   const theme = {
     colors: {
       heading: "rgb(24 24 29)",
-      text: "rgb(24 24 29)",
+      text: "rgb(244 244 294)",
       white: "#fff",
       black: "#212529",
       helper: "#8490ff",
