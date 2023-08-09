@@ -1,4 +1,4 @@
-
+import Index from './components'
 
 // import './App.css'
 import Contact from './components/Contact'
@@ -31,7 +31,8 @@ media: { mobile: "768", tab: "968px"},
 
   return (
     <>
-      <ThemeProvider theme={theme}>
+    <Index/>
+      {/* <ThemeProvider theme={theme}>
         <GlobalStyle/>
         <BrowserRouter>
           <Header />
@@ -43,7 +44,7 @@ media: { mobile: "768", tab: "968px"},
           </Routes>
           <Footer />
         </BrowserRouter>
-      </ThemeProvider>
+      </ThemeProvider> */}
     </>
   )
 }
