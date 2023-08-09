@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="demo"> This is me </p>
+    <button onClick=HandleClick()>Click Me</button>
+ <script >
+const HandleClick = () => {
+    var data = "Saloni Gupta"
+    console.log(data);
+}
+
+// class User {
+//     constructor() {
+//         this.name = 'Bob';
+//     }
+// }
+
+// var user = new User();
+
+
+function User() {
+    this.name = 'Bob';
+    this.id = 'fore'
+}
+
+let user1 = new User();
+let user2 = new User();
+
+//Adding property to constructor using prototype
+User.prototype.age = 25;
+
+console.log(user1.name); // 25
+console.log(user2.name); // 25
+console.log(user1.age);
+console.log(user1.age);
+
+console.log(user1.id);
+console.log(user1.id);
+</script>
+</body>
+
+</html>
